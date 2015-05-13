@@ -10,18 +10,19 @@ ms = { "first_name" => "Marty",     "last_name" => "Stratton" }
 
 instructors = [rb, av, dy, gn, an, mg, ms]
 
-puts "Top Level"
-puts "========="
-puts instructors.class # => Array
-puts instructors.length
-puts instructors.inspect
+# puts "Top Level"
+# puts "========="
+# puts instructors.class # => Array
+# puts instructors.length
+# puts instructors.inspect
 
-puts
-puts "Second Level"
-puts "============"
-puts instructors[1].class # => Hash
-puts instructors[1].keys
-puts instructors[1].inspect
+# puts
+# puts "Second Level"
+# puts "============"
+# puts instructors[1].class # => Hash
+# puts instructors[1].keys
+# puts instructors[1].inspect
+
 
 puts
 puts "Third Level"
